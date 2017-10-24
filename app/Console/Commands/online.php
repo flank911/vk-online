@@ -37,6 +37,6 @@ class online extends Command
      */
     public function handle()
     {
-     $this->info('Тестовая строчка');   //
+     $this->info('Checking Vk users status');   //
     }
 }
