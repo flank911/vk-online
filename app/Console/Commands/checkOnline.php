@@ -4,6 +4,7 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 
+
 class checkOnline extends Command
 {
     /**
@@ -37,6 +38,8 @@ class checkOnline extends Command
      */
     public function handle()
     {
+
+
         $this->info("Test");
         $param = $this->argument('param');
         if ($param) {

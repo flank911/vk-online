@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('vko');
+});
+
+Route::get('/vko', function () {
+    return view('vko');
 });
